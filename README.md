@@ -85,3 +85,5 @@ This project uses Jest and React Testing Library for testing.
 To run the tests:
 
 npm test
+
+## Deploy
