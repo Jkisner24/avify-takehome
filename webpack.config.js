@@ -17,7 +17,7 @@ module.exports = {
     output: {
         filename: '[name]-[contenthash:6].bundle.js',
         path: path.resolve(__dirname, 'dist'),
-        publicPath: `http://${host}:${port}/`
+        publicPath: '/',
     },
     resolve: {
         mainFields: ['browser', 'module', 'main'],
