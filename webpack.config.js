@@ -16,7 +16,7 @@ module.exports = {
     },
     output: {
         filename: '[name]-[contenthash:6].bundle.js',
-        path: path.join(__dirname, './build/www'),
+        path: path.resolve(__dirname, 'dist'),
         publicPath: `http://${host}:${port}/`
     },
     resolve: {
